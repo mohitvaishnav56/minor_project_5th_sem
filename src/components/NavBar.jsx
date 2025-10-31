@@ -1,10 +1,11 @@
-import { CiSearch, CiMenuBurger } from "react-icons/ci";
+import { CiSearch, CiMenuBurger} from "react-icons/ci";
+import CustomButton from "./customElems/CustomButton";
 const NavBar = () => {
-    return (
-        <>
-            hello
-        </>
-    )
+  return (
+    <>
+        NavBar
+    </>
+  )
 }
 
 export default NavBar

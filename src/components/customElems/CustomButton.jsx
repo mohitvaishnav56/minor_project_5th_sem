@@ -1,9 +1,11 @@
 import React from 'react'
 
-const CustomButton = () => {
-  return (
-    <div>CustomButton</div>
-  )
+const CustomButton = ({ title, className='' }) => {
+    return (
+        <button className={"px-2 py-1 bg-[#ff0000] text-xs cursor-pointer rounded text-white" + className}>
+            {title}
+        </button>
+    )
 }
 
 export default CustomButton
