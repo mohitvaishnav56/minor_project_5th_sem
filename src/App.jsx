@@ -1,9 +1,13 @@
-
+import { BrowserRouter } from "react-router-dom"
+import MainRouter from "./routes/MainRouter"
 function App() {
 
   return (
     <>
-      <h1 className="text-7xl">Hello</h1>
+      <div className="w-full bg-zinc-700 p-4 text-white text-center">NavBar Goes Here</div>
+      <BrowserRouter>
+        <MainRouter />
+      </BrowserRouter>
     </>
   )
 }
