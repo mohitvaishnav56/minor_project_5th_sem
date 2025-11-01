@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const CustomLink = (href, className='', title) => {
   return (
-    <Link href={href} className='text-white'> {title}</Link>
+    <Link href={href} className={'text-white'+ className}> {title}</Link>
   )
 }
 
