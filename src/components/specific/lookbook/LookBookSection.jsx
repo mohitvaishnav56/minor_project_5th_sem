@@ -9,7 +9,7 @@ const LookBookSection = () => {
     ]);
 
     return (
-        <div className=" w-full bg-black h-auto md:h-screen py-4">
+        <div className=" w-full bg-black h-auto md:h-screen py-4 px-2">
             <h1 className="text-3xl text-white inter-base underline underline-offset-6 decoration-[#FF0000BA]">The LookBook</h1>
             <div className="w-full md:p-0 gap-2 md:gap-4 flex justify-center flex-wrap md:flex-nowrap h-auto md:h-full ">
                 {
