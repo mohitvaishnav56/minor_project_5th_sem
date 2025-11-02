@@ -5,7 +5,7 @@ const LBCardContainer = ({index, details}) => {
     const imageUrl = details.imageUrl;
     const btnText = details.btnText;
   return (
-    <div className={`md:w-full  h-130 flex gap-6 mt-10 ${index % 2 === 0 ? 'pt-15' : 'pb-15'}`}>
+    <div className={`w-4/10 md:w-60 h-130 flex gap-6 mt-10 ${index % 2 === 0 ? 'pt-15' : 'pb-15'}`}>
         <LookBookCard title={title} tagline={tagline} imageUrl={imageUrl} btnText={btnText}/>
     </div>
   )
