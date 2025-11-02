@@ -5,8 +5,9 @@ function App() {
 
   return (
     <>
-      <NavBar />
+      
       <BrowserRouter>
+      <NavBar />
         <MainRouter />
       </BrowserRouter>
     </>
