@@ -20,12 +20,12 @@ const NavBar = () => {
   <CustomLink href="/" title="About" />
   <CustomLink href="/" title="Contact" />
   </ul>
-  <div className=" hidden md:flex gap-2 ">
-    <div className="text-white  flex gap-2 rounded item-center border border-white  px-2 py-2 border-[2px] ">
-      <CiSearch />
-      <input type="text" placeholder="Search..." className="w-[100px] bg-black outline-none text-white" ></input>
+  <div className=" hidden md:flex gap-2 items-center ">
+    <div style={{alignItems: "center"}} className="text-white flex gap-2 rounded item-center border border-white px-2  py-1 ">
+      <CiSearch className="h-fit"/>
+      <input type="text" placeholder="Search..." className="w-[100px] bg-black outline-none text-white placeholder:text-sm" ></input>
     </div>
-    <CustomButton title="login"  />
+    <CustomLink href={"/login"} title={<CustomButton title="login"  />}/>
   </div>
 <div className="text-white font-2xl flex gap-2 items-center  md:hidden">
   <CiSearch className="cursor-pointer"/>
@@ -52,6 +52,7 @@ const NavBar = () => {
         </div>
           </>
       )}
+
     </>
   )
 }
