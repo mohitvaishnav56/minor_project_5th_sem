@@ -8,7 +8,7 @@ const NavBar = () => {
    const [isOpen,setIsOpen] = useState(false)
   return (
     <>
-       <div className="bg-black p-6 flex items-center justify-between">
+       <div className="relative bg-black p-6 flex items-center justify-between">
     <div className="text-white font-[Inria_Serif] tracking-[5px] underline underline-offset-[6px] decoration-[#ff0000] ">
       GANGSTER
       </div>
@@ -36,8 +36,8 @@ const NavBar = () => {
        </div>
        {isOpen && (
         <>
-        <div className="   h-screen w-screen  bg-black bg-opacity-40 flex justify-end  md:hidden">
-          <div className="h-full w-70 bg-black border-l-2 border-white   ">
+        <div className="absolute z-4 transition-3  h-screen  bg-black bg-opacity-40 flex justify-end  md:hidden">
+          <div className="h-full w-70 bg-red-400 ">
             <ul className="flex flex-col gap-4 items-center p-5 ">
     <li>   
     <CustomLink href="/" title="Home" /></li>  
