@@ -4,8 +4,8 @@ import CustomButton from '../../../customElems/CustomButton'
 const Hero = () => {
   return (
     <> 
-    <div className="h-screen w-screen  bg-blue-800 
-    md: h-200 w-360">
+    <div className="h-screen w-screen bg-blue-400  
+    md: h-200 md:w-360 md:bg-red-500">
 <div className=' test-font ml-40  '>
   Gang
   </div>
