@@ -7,8 +7,16 @@ const BTL = () => {
             <img 
                 src="/BTL.png" 
                 alt="Models wearing Beyond The Label street wear apparel" 
-                className="w-full h-1/2 rotate-90 md:rotate-0 md:h-full md:w-5/10 object-cover" 
+                className="w-full h-1/2 hidden md:block md:h-full md:w-5/10 object-cover" 
             />
+
+            <img 
+                src="/BTL.svg" 
+                alt="Models wearing  Beyond The Label street wear apparel" 
+                className="w-full h-1/2 md:hidden block object-cover" 
+            />
+
+            
             <div className='w-full flex flex-col justify-center gap-4 md:gap-6 p-6 md:p-12'>
                 <h1 className='text-white text-4xl md:text-5xl font-bold inter-base'>
                     BEYOND THE LABEL
