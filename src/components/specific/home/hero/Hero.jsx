@@ -3,12 +3,13 @@ import CustomPara from '../../../customElems/CustomPara'
 import CustomButton from '../../../customElems/CustomButton'
 const Hero = () => {
   return (
-    <>
-      <div className="h-screen w-screen  bg-blue-800 
-    md:h-200 md:w-360">
-        <div className=' test-font ml-40  '>
-          Gang
-        </div>
+    <> 
+    <div className="h-screen w-screen bg-blue-400  
+    md: h-200 md:w-360 md:bg-red-500">
+<div className=' test-font ml-40  '>
+  Gang
+  </div>
+
 
         <img src="/first.png" alt="hero" className='absolute top-55 left-130 brightness-50' />
 
