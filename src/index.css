@@ -3,13 +3,11 @@
 @import "tailwindcss";
 @font-face {
   font-family: 'Postbill';
-  src: url('./public/fonts/PostNoBillsJaffna-ExtraBold.ttf') format('truetype');
+  src: url('/fonts/PostNoBillsJaffna-ExtraBold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
  
-
-
 .inter-base {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -28,6 +26,6 @@
    font-optical-sizing: auto;
     font-weight: 800;
   font-style: normal;
- font-size: 20em;
+
 
 }
